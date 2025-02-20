@@ -1,0 +1,35 @@
+
+.job_detail {
+    animation: job-detail-animation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+
+.slide_up {
+    opacity: 0;
+    animation: slide-up-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes job-detail-animation {
+    0% { transform: translateX(40%)}
+    100% { transform: translateX(0)}
+}
+
+@keyframes slide-up-animation {
+    0% {
+        transform: translateY(40%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

@@ -1,0 +1,14 @@
+.my-alert {
+    background: transparent;
+    max-width: 100%;
+    width: max-content;
+    height: max-content;
+    z-index: 1020;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+

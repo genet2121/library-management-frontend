@@ -1,0 +1,24 @@
+
+.zdark {
+    --panel_bg: #1c1c1c;
+    --main_bg: #161616;
+    --text_color: white;
+    --border_color: rgb(85, 85, 85);
+}
+
+.zlight {
+    --panel_bg: rgb(255, 255, 255);
+    --main_bg: whitesmoke;
+    --text_color: black;
+    --border_color: rgb(151, 151, 151);
+}
+
+.accents {
+    --bs-border-color: var(--border_color);
+    --button_color: white;
+    --button_bg: #0046eb;
+    /* --button_bg: rgb(6, 89, 255); */
+    --button_bg_hover: #2760e6;
+    /* --button_bg_hover: rgba(125, 125, 125, 0.174); */
+    --input-ring-color: #2760e64d;
+}

@@ -1,0 +1,102 @@
+
+.zbtn, .zbtn:disabled {
+    background: var(--button_bg);
+    color: var(--button_color);
+}
+
+.zbtn:hover, .zbtn:focus {
+    background: var(--button_bg_hover);
+    color: var(--button_color);
+}
+
+.zbtn-outline {
+    background: transparent;
+    border-color: var(--button_bg);
+    color: var(--button_bg);
+}
+
+.zbtn:focus, .zbtn-outline:focus, .zinput:focus, .zcheck_box:focus {
+    box-shadow: 0 0 1px 4px var(--input-ring-color);
+}
+
+.zbtn-outline:hover, .zbtn-outline:focus {
+    background: var(--button_bg_hover);
+    color: var(--button_color);
+}
+
+.zpanel {
+    background: var(--panel_bg) !important;
+    color: var(--text_color)  !important;
+    border-color: var(--border_color)  !important;
+}
+
+.deactive_zbtn {
+    background: transparent;
+    color: var(--text_color);
+}
+
+.deactive_zbtn:hover, .deactive_zbtn:focus {
+    background: transparent;
+    color: var(--button_bg_hover);
+}
+
+.zcheck_box:checked {
+    background-color: var(--button_bg);
+    border-color: var(--button_bg);
+}
+
+.zcheck_box {
+    background-color: transparent;
+}
+
+.zcheck_box:focus {
+    border-color: var(--button_bg);
+    /* box-shadow: 0 0 10px 1px var(--button_bg_hover); */
+}
+
+.zinput, .zinput:disabled {
+    background: var(--panel_bg);
+    color: var(--text_color);
+    border-color: var(--border_color);
+}
+
+.zinput:disabled {
+    background: var(--border_color);
+    color: var(--text_color);
+    border-color: var(--border_color);
+    opacity: 0.5;
+}
+
+.zinput option, .zoption {
+    background: var(--panel_bg);
+    color: var(--text_color);
+}
+
+.zoption:hover, .selected_zoption {
+    background: var(--button_bg);
+    color: var(--button_color);
+}
+
+.zinput::placeholder {
+    color: var(--border_color);
+}
+
+/* .zinput: {
+    color: var(--border_color);
+} */
+
+.zinput:focus {
+    border-color: var(--button_bg);
+    /* box-shadow: 0 0 2px 4px var(--input_ring); */
+    background: var(--panel_bg);
+    color: var(--text_color);
+}
+
+input:focus {
+    outline: none !important;
+}
+
+tr, td, th, thead, tbody, table {
+    background: transparent !important;
+    color: var(--text_color) !important;
+}
